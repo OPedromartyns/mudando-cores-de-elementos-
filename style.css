@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{  text-align: center;
+}
+
+div{
+    border-radius: 100%;
+    overflow: hidden;
+    height: 300px;
+    width:300px;
+    text-align: center
+}
+
+img{
+    width: 300px;
+    text-align: center;
+}
+
+button{
+    padding: 50px 50px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 35px;
+    margin:  10px;
+
+}
+
+.amarelo{
+    background-color: yellow;
+
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
+.roxo {
+    background-color: purple;
+}
+button:hover {
+    transform: scale(1.25);
